@@ -1,3 +1,4 @@
+//hello, java 출력문
 package hello;
 
 public class HelloJava {
