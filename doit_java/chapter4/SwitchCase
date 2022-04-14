@@ -6,14 +6,14 @@ public class SwitchCase{
     char medalColor;
 
     switch(ranking){
-        case1 : medalColor = 'G';
-        break;
-        case2 : medalColor = 'S';
-        break;
-        case3 : medalColor = 'B';
-        break;
-      default:
-        medalColor = 'A';
+        case1 : medalColor = 'G':
+          break;
+        case2 : medalColor = 'S':
+          break;
+        case3 : medalColor = 'B':
+          break;
+        default:
+          medalColor = 'A';
     }
     System.out.println(ranking + "등 메달의 색깔은 "+medalColor + " 입니다.");
   }
