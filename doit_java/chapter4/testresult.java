@@ -1,4 +1,4 @@
-package doit;
+package ifexample;
 
 import java.util.Scanner;
 
@@ -7,11 +7,11 @@ public class testresult {
 	public static void main(String[] args) {
 		char grade;
 		
-		System.out.println("¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”");
 		Scanner input = new Scanner(System.in);
 		int score = input.nextInt();
 		while(score <0 || score >100) {
-			System.out.println("Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä");
+			System.out.println("ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤. ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”");
 			score = input.nextInt();
 		}
 		if(score >=90)
@@ -25,6 +25,6 @@ public class testresult {
 		else
 			grade = 'F';
 		
-		System.out.println("´ç½ÅÀÇ ÇĞÁ¡Àº "+grade+"ÀÔ´Ï´Ù.");
+		System.out.println("ë‹¹ì‹ ì˜ í•™ì ì€ "+grade+"ì…ë‹ˆë‹¤.");
 	}
 }
