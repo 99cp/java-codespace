@@ -1,12 +1,12 @@
 /*
-opertor °ªÀÌ +,-,*,/ÀÎ °æ¿ì¿¡ »çÄ¢ ¿¬»êÀ» ¼öÇàÇÏ´Â ÇÁ·Î±×·¥À»
-if-else if¹®°ú switch-case¹®À» »ç¿ëÇØ ÀÛ¼ºÇØ º¸¼¼¿ä.
+opertor ê°’ì´ +,-,*,/ì¸ ê²½ìš°ì— ì‚¬ì¹™ ì—°ì‚°ì„ ìˆ˜í–‰í•˜ëŠ” í”„ë¡œê·¸ë¨ì„
+if-else ifë¬¸ê³¼ switch-caseë¬¸ì„ ì‚¬ìš©í•´ ì‘ì„±í•´ ë³´ì„¸ìš”.
  */
 package chapter4;
 
 import java.util.Scanner;
 
-public class PraacticeQ1 {
+public class PracticeQ1 {
 
 	public static void main(String[] args) {
 		int num1 =10;
@@ -14,7 +14,7 @@ public class PraacticeQ1 {
 		int count = 0;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("+, -, &, / Áß ÇÏ³ª¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("+, -, &, / ì¤‘ í•˜ë‚˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		char operator = input.next().charAt(0); 
 		
 		while(count == 0){
@@ -22,8 +22,8 @@ public class PraacticeQ1 {
 				count++;
 				continue;
 			}
-			System.out.println("Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù.");
-			System.out.println("+, -, &, / Áß ÇÏ³ª¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+			System.out.println("ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤.");
+			System.out.println("+, -, &, / ì¤‘ í•˜ë‚˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 			operator = input.next().charAt(0);
 		}
 		
