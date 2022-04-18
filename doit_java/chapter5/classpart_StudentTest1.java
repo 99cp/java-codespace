@@ -3,10 +3,10 @@ package classpart;
 public class StudentTest1 {
 	public static void main(String[] args) {
 		Student student1 = new Student();
-		student1.studentName = "¾È¿¬¼ö";
+		student1.studentName = "ì•ˆì—°ìˆ˜";
 		System.out.println(student1.getStudentName());
 		Student student2 = new Student();
-		student2.studentName = "¾È½Â¿¬";
+		student2.studentName = "ì•ˆìŠ¹ì—°";
 		System.out.println(student2.getStudentName());
 	}
 
