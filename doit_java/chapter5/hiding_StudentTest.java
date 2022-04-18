@@ -3,7 +3,7 @@ package hiding;
 public class StudentTest {
 	public static void main(String[] args) {
 		Student studentLee = new Student();
-		studentLee.setStudentName("ÀÌ»ó¿ø");
+		studentLee.setStudentName("ì´ìƒì›");
 		
 		System.out.println(studentLee.getStudentName());
 	}
