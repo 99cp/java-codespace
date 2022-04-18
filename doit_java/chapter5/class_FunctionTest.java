@@ -11,10 +11,10 @@ public class FunctionTest {
 		int product = multiply(num1, num2);
 		int quotient = divide(num1, num2);
 		
-		System.out.println(num1 + " + "+num2+" = "+sum+"�Դϴ�");
-		System.out.println(num1 + " - "+num2+" = "+imsub+"�Դϴ�");
-		System.out.println(num1 + " x "+num2+" = "+product+"�Դϴ�");
-		System.out.println(num1 + " / "+num2+" = "+quotient+"�Դϴ�");
+		System.out.println(num1 + " + "+num2+" = "+sum+"입니다");
+		System.out.println(num1 + " - "+num2+" = "+imsub+"입니다");
+		System.out.println(num1 + " x "+num2+" = "+product+"입니다");
+		System.out.println(num1 + " / "+num2+" = "+quotient+"입니다");
 	}
 	
 	public static int add(int n1, int n2) {
