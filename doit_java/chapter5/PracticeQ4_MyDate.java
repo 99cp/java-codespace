@@ -38,7 +38,7 @@ public class MyDate {
 				}
 				break;
 			case 2:
-				if (( ( year % 4 ==0 &&  year % 100 !=0 ) || year % 400 ==0)){  //À±³âÀÎ °æ¿ì
+				if (( ( year % 4 ==0 &&  year % 100 !=0 ) || year % 400 ==0)){  //ìœ¤ë…„ì¸ ê²½ìš°
 					if (day <0 || day >29) {
 						isValid = false;
 					} 
@@ -89,10 +89,10 @@ public class MyDate {
 	public String isValid() {
 		
 		if(isValid) {
-			return "À¯È¿ÇÑ ³¯Â¥ÀÔ´Ï´Ù.";
+			return "ìœ íš¨í•œ ë‚ ì§œì…ë‹ˆë‹¤.";
 		}
 		else {
-			return "À¯È¿ÇÏÁö ¾ÊÀº ³¯Â¥ÀÔ´Ï´Ù.";
+			return "ìœ íš¨í•˜ì§€ ì•Šì€ ë‚ ì§œì…ë‹ˆë‹¤.";
 		}
 	}
 }
